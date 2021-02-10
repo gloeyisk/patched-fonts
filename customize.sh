@@ -21,10 +21,6 @@ ui_print "- Searching fonts file location"
  if [ -d /system/fonts ]; then
  PATH=/system/fonts
 sleep 1
-ui_print "   Fonts found in: $PATH" 
- elif [ -d /system/product/fonts ]; then
- PATH=/system/product/fonts
-sleep 1
 ui_print "   Fonts found in: $PATH"
  break
  else
