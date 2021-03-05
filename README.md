@@ -10,6 +10,6 @@
 - [@JumbomanXDA](https://github.com/JumbomanXDA) / Custom installation script
 
 ## Extras:
-- Donation: [PayPal](https://paypal.me/gloeyisk)   
+- Donation: [PayPal](https://paypal.me/gloeyisk) - [LiberaPay](https://liberapay.com/gloeyisk)
 - Mirror Links: [Telegram](https://t.me/gldppc) - [Sourceforge](http://bit.ly/2Z4Kmby)   
 - Source Code: [GitHub](https://github.com/gloeyisk/PatchedFonts)   
