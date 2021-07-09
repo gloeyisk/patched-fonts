@@ -11,5 +11,5 @@
 
 ## Extras:
 - Donation: [PayPal](https://paypal.me/gloeyisk) - [LiberaPay](https://liberapay.com/gloeyisk)
-- Mirror Links: [Telegram](https://t.me/gldppc) - [Sourceforge](http://bit.ly/2Z4Kmby) - [AndroidFileHost](https://bit.ly/3vZRxR1)
+- Mirror Links: [Telegram](https://t.me/gldppc) - [Archive](https://tinyurl.com/dvbnjpub)
 - Source Code: [GitHub](https://github.com/gloeyisk/PatchedFonts)   
