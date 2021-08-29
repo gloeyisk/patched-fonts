@@ -1,4 +1,4 @@
-#!/system/bin/sh
+#!/sbin/sh
 
 #
 # Patched Fonts by the
@@ -7,42 +7,18 @@
 #
 
 # Checking for installation environment
-sleep 1
 if [ $BOOTMODE = true ]; then
- ROOT=$(find `magisk --path` -type d -name "mirror" | head -n 1)
-ui_print "- Root path: $ROOT"
-else
- ROOT=""
+ROOT=$(find `magisk --path` -type d -name "mirror" | head -n 1)
+    ui_print "- Root path: $ROOT"
+ else
+ROOT=""
 fi
 
-# Search fonts location
-sleep 1
-ui_print "- Searching fonts file location"
- if [ -d /system/fonts ]; then
- PATH=/system/fonts
-sleep 1
-ui_print "   Fonts found in: $PATH"
- break
- else
-sleep 1
-ui_print "   Fonts not found"
-sleep 1
-   abort "   Aborting"
- fi
-
 # Patch default fonts
-sleep 1
-ui_print "- Patching fonts"
- mkdir -p $MODPATH$PATH
- mv -f $MODPATH/patches/* $MODPATH$PATH
-sleep 1
-ui_print "   Patched"
+PATH=/system/fonts
+    ui_print "- Patching fonts"
+mkdir -p $MODPATH$PATH
+mv -f $MODPATH/patches/* $MODPATH$PATH
 
 # Clean up
-sleep 1
-ui_print "- Cleaning up"
- rm -rf $MODPATH/patches
-
-sleep 1
-# Executing...
-# Done
+rm -rf $MODPATH/patches
